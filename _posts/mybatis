@@ -1,0 +1,24 @@
+---
+layout:     post
+title:      mybatis技术小总结
+subtitle:    "\"Hello Mybatis\""
+date:       2021-10-10
+author:     GWB
+header-img: img/post-bg-2015.jpg
+catalog: true
+tags:
+    - mybatis
+    - java
+    -基础
+---
+
+> “🙉🙉🙉 ”
+## 正文
+也算是自己第一次接触mybatis，对自己之前的学习做一个总结
+使用是的mybatis-spring-2.0.6.jar--Java 包
+利用maven构建，导入的包有
+mysql-connector-java      8.0.25
+org.mybatis       3.5.2
+junit    3.8.2
+在配置过程中曾出现过的错误有：
+如果使用 8.0.25或以上的mysql版本，使用com.mysql.cj.jdbc.Driver，则在url配置中需要标注serverTimezone，目前我使用的是：Asia/Shanghai
